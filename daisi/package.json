@@ -1,0 +1,31 @@
+{
+    "name": "daisi-api",
+    "version": "1.0.0",
+    "description": "This is my portfolio",
+    "main": "serverr.js",
+    "scripts": {
+        "start": "node server",
+        "dev": "nodemon server"
+    },
+    "keywords": [
+        "NODE",
+        "EXPRESS",
+        "API",
+        "POSTMAN"
+    ],
+    "author": "GIORGI MENTESHASHVILI",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    },
+    "dependencies": {
+        "chalk": "^3.0.0",
+        "connect-flash": "^0.1.1",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "express-handlebars": "^7.0.7",
+        "express-session": "^1.17.3",
+        "express-validator": "^6.15.0",
+        "mongoose": "^6.11.1"
+    }
+}
